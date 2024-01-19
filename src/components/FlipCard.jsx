@@ -2,7 +2,7 @@ import React from "react";
 import { flipCard } from "./common/Helper";
 const FlipCard = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen px-3">
+    <div className="flex justify-center items-center min-h-screen px-3 !my-12">
       <div className="flex flex-wrap justify-center">
         {flipCard.map((data , index)=>{
             return(

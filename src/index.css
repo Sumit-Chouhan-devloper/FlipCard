@@ -1,7 +1,7 @@
 
 .card {
-  width: 300px;
-  height: 300px;
+  min-width: 300px !important;
+  min-height: 380px !important;
   perspective: 1000px;
 }
 
@@ -10,7 +10,6 @@
   width: 100%;
   height: 100%;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
-
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -23,7 +22,7 @@
 .front,
 .back {
   position: absolute !important;
-  height: 103.5% !important;
+  height: 100% !important;
   width: 100%;
   text-align: center;
   backface-visibility: hidden;

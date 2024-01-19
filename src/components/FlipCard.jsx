@@ -2,10 +2,10 @@ import React from "react";
 import babbuMaan from "../assets/images/png/babbu-maan.jpg";
 const FlipCard = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen px-3 !my-12">
+    <div className="flex justify-center items-center min-h-screen px-3 !my-12 container mx-auto">
       <div className="flex flex-wrap justify-center">
         <div className="xl:w-3/12 max-w-[420px] sm:max-w-[unset] sm:w-9/12 md:w-6/12 px-2 my-2">
-          <div className="card w-full md:min-h-[500px] lg:min-h-[380px]">
+          <div className="card w-full min-w-[300px] min-h-[370px] md:min-h-[400px] xl:min-h-[380px]">
             <div className="content">
               <div className="front">
                 <img
@@ -25,7 +25,7 @@ const FlipCard = () => {
           </div>
         </div>
         <div className="xl:w-3/12 max-w-[420px] sm:max-w-[unset] sm:w-9/12 md:w-6/12 px-2 my-2">
-          <div className="card w-full">
+          <div className="card w-full min-w-[300px] min-h-[370px] md:min-h-[400px] xl:min-h-[380px]">
             <div className="content">
               <div className="front">
                 <img
@@ -45,7 +45,7 @@ const FlipCard = () => {
           </div>
         </div>
         <div className="xl:w-3/12 max-w-[420px] sm:max-w-[unset] sm:w-9/12 md:w-6/12 px-2 my-2">
-          <div className="card w-full">
+          <div className="card w-full min-w-[300px] min-h-[370px] md:min-h-[400px] xl:min-h-[380px]">
             <div className="content">
               <div className="front">
                 <img
@@ -65,7 +65,7 @@ const FlipCard = () => {
           </div>
         </div>
         <div className="xl:w-3/12 max-w-[420px] sm:max-w-[unset] sm:w-9/12 md:w-6/12 px-2 my-2">
-          <div className="card w-full">
+          <div className="card w-full min-w-[300px] min-h-[370px] md:min-h-[400px] xl:min-h-[380px]">
             <div className="content">
               <div className="front">
                 <img
